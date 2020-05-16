@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+    <link href="main.css" rel="stylesheet"></head>
+    <body data-spy="scroll" data-target="#navbar">
+        <div class="contact-element container">
+            <div class="left-icons">
+                <i class="fab social-icon fa-2x fa-instagram"></i>
+                <i class="social-icon cv">c.v.</i>
+                <i class="fab social-icon fa-2x fa-facebook"></i>
+               
+            </div>
+            <div class="right-icons">
+                <i class="fab social-icon fa-2x fa-instagram"></i>
+                <i class="fab social-icon fa-2x fa-twitter"></i>
+                <i class="fab social-icon fa-2x fa-facebook"></i>
+            </div>
+        </div>
+    <div class="container relative">
+        <div class="overlay">
+            <div class="cv-container">
+                <img src="./img/defaultCV.png" alt="">
+            </div>
+            <button class="close-btn">X</button>
+        </div>
+        <div id="navbar" class="navbar navbar-expand-md navbar-light sticky-top">
+            <div class="navbar-brand navi" href="#">logo</div>
+        
+            <button class=" navi navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=" navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class=" smooth-scroll navbar-nav ml-auto mx-auto ">
+                    <li class="nav-item link link__1">
+                        <a class="nav-link  js-scroll-trigger" href="#about">o mnie</a>
+                    </li>
+                    <li class="nav-item link link__2">
+                        <a class="nav-link js-scroll-trigger" href="#skills">umiejętności</a>
+                    </li>
+                    <li class="nav-item link link__3">
+                        <a class="nav-link js-scroll-trigger" href="#tech">technologie</a>
+                    </li>
+                    <li class="nav-item link link__4">
+                        <a class="nav-link js-scroll-trigger" href="#contact">kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <div class="contact-element contact-element--right">contact right</div> -->
+        <section id="welcome">
+           
+            <div class="logo-container">
+                <img class="img-fluid logo" src="./img/logo.png" alt="moje logo" class="logo">
+                
+                <h2 class="title">Front-end developer</h2>
+                <a class="arrow-down" href="#about"><i class="fas fa-arrow-down fa-3x"></i></a>
+                <img class="img-fluid icons" src="./img/icons.png" alt="icons" class="icons">
+            </div>
+            <h2 class="section-title">O mnie</h2>
+        </section>
+        <section id="about"> 
+            <div class="section-content">
+
+                <div class="content">
+                    <h2>Cześć!</h2>
+
+                    <p>Nazywam się Staszek, Jestem  pełnym energii programistą. Miło iż chcesz mnie poznać.</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloribus soluta provident rerum perspiciatis? Illo facilis laudantium minima ex, itaque assumenda! Voluptates corporis at laudantium quia ex veniam ullam cumque?</p> 
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloribus soluta provident rerum perspiciatis? Illo facilis laudantium minima ex, itaque assumenda! Voluptates corporis at laudantium quia ex veniam ullam cumque?</p> 
+                </div> 
+    
+                <div class="photo-container">
+                    <img class="user-foto" src="./img/staszek.png" alt="">
+                </div>
+            </div>
+            <!-- <h2 class="section-title">Umiejętności</h2> -->
+        </section>
+        <section id="skills"> 
+            <div class="section-content">
+
+                <div class="image-container">
+                    <img class="rwd-image" src="./img/phone-tablet-and-laptop.png" alt="">
+                </div>
+    
+                <div class="content">
+                    <h2>Responsive Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi corrupti esse ratione quas quis laboriosam magni, quia laudantium aperiam eos?</p> 
+                </div>
+            </div>
+            <h2 class="section-title">Technologie</h2>
+        </section>
+        <section id="tech"> 
+            <div class="section-content">
+                <div class="current-tech">
+                    <h2>What am I familiar with?:</h2>
+                    <p>JavaScript ES6+</p>
+                    <p>HTML</p>
+                    <p>CSS(Grid, Flex)</p>
+                    <p>React</p>
+                    <p>Sass/Scss</p>
+                    <p>Bootstrap</p>
+                    <p>Webpack</p>
+                    <p>Git/Github</p>
+                    <p>Npm</p>
+                    <p>jQuery</p>
+                </div>
+                <div class="learning-tech">
+                    <h2>What will I be good at?:</h2>
+                    <p>Redux/Hooks</p>
+                    <p>TypeScipt</p>
+                    <p>Gatsby.js</p>
+                    <p>Node.js</p>
+                    <p>Express.js</p>
+                    <p>MongoDB</p>
+                    <p>Johny-five</p>
+                    <p>Figma</p>
+                    <p>Photoshop</p>
+                    <p>WordPress</p>
+                </div>
+            </div>
+            <h2 class="section-title">Projekty</h2>
+        </section>
+        <section id="projects">
+            <div class="project-box">
+                <h3 class="project-title">project title</h3>
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus necessitatibus obcaecati sequi ipsa id aliquid?</p>
+                <div class="demo ">demo</div>
+                <div class="github inactive">github</div>
+            </div>
+            <div class="project-box">
+                <h3 class="project-title">project title</h3>
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus necessitatibus obcaecati sequi ipsa id aliquid?</p>
+                <div class="demo">demo</div>
+                <div class="github">github</div>
+            </div>
+            <div class="project-box">
+                <h3 class="project-title">project title</h3>
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus necessitatibus obcaecati sequi ipsa id aliquid?</p>
+                <div class="demo">demo</div>
+                <div class="github">github</div>
+            </div>
+            <div class="project-box">
+                <h3 class="project-title">project title</h3>
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus necessitatibus obcaecati sequi ipsa id aliquid?</p>
+                <div class="demo">demo</div>
+                <div class="github">github</div>
+            </div>
+            <div class="project-box">
+                <h3 class="project-title">project title</h3>
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus necessitatibus obcaecati sequi ipsa id aliquid?</p>
+                <div class="demo">demo</div>
+                <div class="github">github</div>
+            </div>
+            <div class="project-box">
+                <h3 class="project-title">project title</h3>
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus necessitatibus obcaecati sequi ipsa id aliquid?</p>
+                <div class="demo">demo</div>
+                <div class="github">github</div>
+            </div>
+            
+        </section>
+        <footer id="footer" class="container-fluid footer-section">
+            <div class="row content">
+                <p>&copy; Copyright 2020 Stanislaw Malanowicz</p>
+                <p class="footer__content"><i class="fas footer__icon fa-envelope"></i> <span
+                    class="text">stanislaw.malanowicz86@contact.pl</span></p>
+                
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- ***************************************************** -->
+   
+<script type="text/javascript" src="main.bundle.js"></script></body>
+</html>
